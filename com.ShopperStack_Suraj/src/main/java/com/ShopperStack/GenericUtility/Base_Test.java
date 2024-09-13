@@ -65,14 +65,14 @@ public class Base_Test {
 //		String browser = sc.next();
 //		System.out.println("Number Of Browsers");
 		
-//		String browserName = file.readPropertyData("browserName");
-//		String url = file.readPropertyData("url");
+		String browserName = file.readPropertyData("browserName");
+		String url = file.readPropertyData("url");
 		
 		
 //		use below two lines when we execute on cmd line 
 		
-		String browserName=System.getProperty("browser");
-		String url = System.getProperty("url");
+//		String browserName=System.getProperty("browser");
+//		String url = System.getProperty("url");
 		
 		if (browserName.contains("chrome")) {
 			driver=new ChromeDriver();
