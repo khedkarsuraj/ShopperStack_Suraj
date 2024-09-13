@@ -68,7 +68,6 @@ public class Base_Test {
 		String browserName = file.readPropertyData("browserName");
 		String url = file.readPropertyData("url");
 		
-		
 //		use below two lines when we execute on cmd line 
 		
 //		String browserName=System.getProperty("browser");
